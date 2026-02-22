@@ -1,16 +1,52 @@
-# attendance_app
+# AsisT-2
 
-A new Flutter project.
+Aplicación móvil desarrollada en Flutter para el control y gestión de asistencia.
+Permite registrar sesiones, administrar asistencias y exportar información de forma organizada y eficiente.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Este proyecto es una aplicación Flutter enfocada en el registro y análisis de asistencia.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Registro de asistencia por sesión
+- Base de datos local con SQLite
+- Exportación de datos a Excel
+- Visualización de estadísticas
+- Interfaz optimizada para dispositivos móviles
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clona el repositorio:
+
+   git clone https://github.com/tu-usuario/attendance_app.git
+
+2. Entra al directorio del proyecto:
+
+   cd attendance_app
+
+3. Instala las dependencias:
+
+   flutter pub get
+
+4. Ejecuta la aplicación:
+
+   flutter run
+
+## Project Structure
+
+lib/
+ ├── core/
+ ├── features/
+ ├── models/
+ ├── repository/
+ ├── screens/
+ └── widgets/
+
+## App Icon
+
+El proyecto utiliza flutter_launcher_icons para generar automáticamente
+los iconos de Android e iOS.
+
+Para regenerarlos:
+
+   dart run flutter_launcher_icons
